@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../main.js"></script>
+    <title>Articles</title>
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html">Home</a>
+    </nav>
+
+    <h2>Create New Article</h2>
+
+    <form action="/articles" method="post">
+      <input type="text" name="title" id="title" placeholder="Title" />
+      <input type="text" name="desc" id="desc" placeholder="Description" />
+      <input type="text" name="author" id="author" placeholder="Author" />
+      <input type="text" name="body" id="body" placeholder="Body" />
+      <input type="submit" value="Create" />
+    </form>
+  </body>
+</html>
